@@ -5,6 +5,7 @@ set cursorcolumn
 
 call plug#begin('~/.vim/plugged')
 
+Plug 'dart-lang/dart-vim-plugin'
 Plug 'tpope/vim-ragtag'
 Plug '907th/vim-auto-save'
 Plug 'benjifisher/matchit.zip'

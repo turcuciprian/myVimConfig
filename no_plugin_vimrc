@@ -1,0 +1,6 @@
+syntax on
+set number
+set cursorline
+set cursorcolumn
+set shiftwidth=2
+set softtabstop=2

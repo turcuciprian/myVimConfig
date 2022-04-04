@@ -11,11 +11,14 @@ to install open vim and run:
 
 
 ### Navigate to file: ctrlP:
-```mkdir -p ~/.vim/pack/plugins/start
-git clone --depth=1 https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/pack/plugins/start/ctrlpi```
+```
+mkdir -p ~/.vim/pack/plugins/start
+git clone --depth=1 https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/pack/plugins/start/ctrlp
+```
 
 ### Full text search in all files: Ack:
-``` sudo apt install ack
+``` 
+sudo apt install ack
 curl https://beyondgrep.com/ack-v3.5.0 > --create-dirs ~/bin/ack && chmod 0755 ~/bin/ack
 ```
 - you start using it by writing :ack string_to_search

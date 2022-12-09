@@ -12,7 +12,7 @@ to install open vim and run:
 
 ### Navigate to file: ctrlP:
 ```
-mkdir -p ~/.vim/pack/plugins/start
+mkdir -p ~/.vim/pack/plugins/start:q
 git clone --depth=1 https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/pack/plugins/start/ctrlp
 ```
 
@@ -23,3 +23,6 @@ curl https://beyondgrep.com/ack-v3.5.0 > --create-dirs ~/bin/ack && chmod 0755 ~
 ```
 - you start using it by writing :ack string_to_search
 - you add ```Plug 'mileszs/ack.vim'``` to vimrc
+
+# nVim config
+I am adding nVim to this repository since I recently moved from vscode to nvim

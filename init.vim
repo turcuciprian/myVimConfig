@@ -22,9 +22,10 @@ set spell                 " enable spell check (may need to download language pa
 set noswapfile            " disable creating swap file
 set backupdir=~/.cache/vim " Directory to store backup files.
 
- call plug#begin('C:\Users\cipri\AppData\Local\nvim-data\site\autoload\plugged')
+ call plug#begin()
  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
  Plug 'junegunn/fzf.vim'
  Plug 'ctrlpvim/ctrlp.vim'
  Plug 'tpope/vim-fugitive'
+ Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
  call plug#end()

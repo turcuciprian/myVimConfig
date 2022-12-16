@@ -1,10 +1,10 @@
 # Movements
 
-## Select between two lines
+### Select between two lines
 
 ``10GV12G```
 
-### Explanation
+#### Explanation
 
 10 - start line
 G - Go to that line
@@ -13,11 +13,11 @@ V - select that line
 
 Basically you go to line 10 and select the entire line and then while selected you jump to line 12
 
-## Select inside {
+### Select inside {
 
 ``` vi{```
 
-i### Explanation:
+##### Explanation:
 
 v - select character (this character can be replaced with d if you want to delete everything inside something)
 i - inside
@@ -27,36 +27,36 @@ Basically you select inside { regardless if you are on the starting character, e
 
 IMPORTANT! You need to be on the starting character (brace in this case), ending or inside the braces
 
-## Select including {
+### Select including {
 
 Same as select inside only a instead of i
 
 
-## Horizontal go to first character x
+### Horizontal go to first character x
 
 fx
 
 
-## Find inside current file:
+### Find inside current file:
 
 /searchCharacters
 
-## Next occurance of searched for word
+### Next occurance of searched for word
 
 n
 
-## Previous occurance of searched for word
+### Previous occurance of searched for word
 
 N
 
-## Last character in word:
+### Last character in word:
 
 e
 
-## First character of next word
+### First character of next word
 
 w
 
-## First character of current or previous word
+### First character of current or previous word
 
 b

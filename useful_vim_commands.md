@@ -2,7 +2,7 @@
 
 ### Select between two lines
 
-``10GV12G```
+```10GV12G```
 
 #### Explanation
 
@@ -25,7 +25,7 @@ i - inside
 
 Basically you select inside { regardless if you are on the starting character, ending or inside the contents of what you want to select. 
 
-IMPORTANT! You need to be on the starting character (brace in this case), ending or inside the braces
+***```IMPORTANT!```*** You need to be on the starting character (brace in this case), ending or inside the braces
 
 ### Select including {
 

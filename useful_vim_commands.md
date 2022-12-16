@@ -34,7 +34,7 @@ Same as select inside only a instead of i
 
 ### Horizontal go to first character x
 
-fx
+```fx```
 
 
 ### Find inside current file:
@@ -60,3 +60,18 @@ w
 ### First character of current or previous word
 
 b
+
+### Wrap a word in single quotes
+
+ciw'Ctrl+r"'
+
+#### Explanation
+
+c -copy
+i - inside
+w - word
+' - character you want to add at the beginning (this can be multiple characters as at this point you are in edit mode)
+Ctrl+r" - what you need to press to insert the contents of the " register
+' character you want to eadd at the end of the word to wrap it with (again , this can be multiple)
+
+

@@ -1,2 +1,2 @@
-require("theprimeagen.remap")
-require("theprimeagen.set")
+require("chip.remap")
+require("chip.set")

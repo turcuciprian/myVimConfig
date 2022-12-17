@@ -1,1 +1,1 @@
-require("theprimeagen")
+require("chip")

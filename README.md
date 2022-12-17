@@ -7,6 +7,9 @@ _pf - full file search in the root where nvim was initialised
 _pv - enteres explore more
 _a - Harpoon - add current file to harpoon
 _gd - go to definition
+_d - when in explore mode, creates a new directory
+% - when in explore mode, creates a new file
+_u - Treesitter activated
 
 Ctrl + e - Harpoon - toggle quick menu
 Ctrl + h - Harpoon - switch to file 1

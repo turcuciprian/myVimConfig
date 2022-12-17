@@ -18,6 +18,13 @@ Ctrl + s - Harpoon - switch to file 4
 h - go left 1 character
 j - go down 1 character
 k - go up one character
+/abc - find inside current file the characters abc
+n - next occurance of the previously searched word
+N - previous occurance of the previously searched word
+e - jump to last character in word
+w - jump to first character in word
+b - jump to first character in word
+ciw'Ctrl+r"' - wrap a word in single quotes
 
 vi{ - select everything between {} that I am in or on now
 
@@ -25,3 +32,4 @@ vi{ - select everything between {} that I am in or on now
 
 :lua ColorMyPencils() - sets the color theme and transparent background
 :TSPlaygroundToggle - Treesitter insights for plugins
+

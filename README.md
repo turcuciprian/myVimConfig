@@ -1,28 +1,18 @@
-# Install plugin:
-in the console run:
-```
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-```
-# myVimConfig
-to install open vim and run:
-```PlugInstall --sync```
+# The primeagen config with LSP
 
+### mappings:
 
+Ctrl + p - Git file search (if you have git initialized, ignores whatever git is supposed to ignore)
+_pf - full file search in the root where nvim was initialised
+_pv - enteres explore more
+_a - Harpoon - add current file to harpoon
+Ctrl + e - Harpoon - toggle quick menu
+Ctrl + h - Harpoon - switch to file 1
+Ctrl + t - Harpoon - switch to file 2
+Ctrl + n - Harpoon - switch to file 3
+Ctrl + s - Harpoon - switch to file 4
 
-### Navigate to file: ctrlP:
-```
-mkdir -p ~/.vim/pack/plugins/start:q
-git clone --depth=1 https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/pack/plugins/start/ctrlp
-```
+## Comands:
 
-### Full text search in all files: Ack:
-``` 
-sudo apt install ack
-curl https://beyondgrep.com/ack-v3.5.0 > --create-dirs ~/bin/ack && chmod 0755 ~/bin/ack
-```
-- you start using it by writing :ack string_to_search
-- you add ```Plug 'mileszs/ack.vim'``` to vimrc
-
-# nVim config
-I am adding nVim to this repository since I recently moved from vscode to nvim
+:lua ColorMyPencils() - sets the color theme and transparent background
+:TSPlaygroundToggle - Treesitter insights for plugins

@@ -32,6 +32,7 @@
 
 * :lua ColorMyPencils() - sets the color theme and transparent background
 * :TSPlaygroundToggle - Treesitter insights for plugins
+* :%s/searchedText/replaceWithText - search and replace in current file in vim
 
 ## Notes
 

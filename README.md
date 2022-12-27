@@ -1,4 +1,19 @@
-# The primeagen config with LSP
+# Based on The primeagen config with LSP
+
+#Installation
+
+* Make sure you have gcc installed:
+
+``` sudo apt update```
+
+and then 
+
+``` sudo apt install build-essential ```
+
+* install packer 
+
+``` git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim ```
 
 ### mappings:
 
@@ -21,4 +36,4 @@ Ctrl + s - Harpoon - switch to file 4
 ## Comands:
 
 :lua ColorMyPencils() - sets the color theme and transparent background
-:TSPlaygroundToggle - Treesitter insights for plugins
+:TS)PlaygroundToggle - Treesitter insights for plugins

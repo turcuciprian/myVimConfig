@@ -1,6 +1,26 @@
 # My config with LSP 
 ### (based on thePrimagean config as a starting point, but with my additions)
 
+#Installation
+
+* Make sure you have gcc installed:
+
+`` sudo apt update``
+
+and then 
+
+`` sudo apt install build-essential ``
+
+* install packer 
+
+`` git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim ``
+
+ * install fzf
+ 
+ `` git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install``
+
 ### Mappings:
 
 * Ctrl + p - Git file search (if you have git initialized, ignores whatever git is supposed to ignore)

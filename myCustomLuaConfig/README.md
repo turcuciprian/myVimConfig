@@ -1,7 +1,7 @@
 # My config with LSP 
 ### (based on thePrimagean config as a starting point, but with my additions)
 
-#Installation
+# Installation
 
 * Make sure you have gcc installed:
 

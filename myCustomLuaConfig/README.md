@@ -34,10 +34,12 @@ and then
 
 * install packer 
 
-`` git clone --depth 1 https://github.com/wbthomason/packer.nvim\
- ~/.local/share/nvim/site/pack/packer/start/packer.nvim ``
+see [Quick Start packer nvim](https://github.com/wbthomason/packer.nvim#quickstart)
 
- Source the packer.lua file from lua/chip/packer.lua
+ Source the packer.lua file from lua/chip/packer.lua by opening it in nvim and running ``:so`` inside it
+
+ after that, 
+
  write ``:PackerSync`` right after to install everything
 ### Mappings:
 

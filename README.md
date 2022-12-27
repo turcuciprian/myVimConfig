@@ -1,6 +1,6 @@
 # Based on The primeagen config with LSP
 
-#Installation
+# Installation
 
 * Make sure you have gcc installed:
 

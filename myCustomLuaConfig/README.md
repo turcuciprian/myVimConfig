@@ -11,16 +11,18 @@ and then
 
 `` sudo apt install build-essential ``
 
-* install packer 
-
-`` git clone --depth 1 https://github.com/wbthomason/packer.nvim\
- ~/.local/share/nvim/site/pack/packer/start/packer.nvim ``
-
  * install fzf
  
  `` git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install``
 
+* install packer 
+
+`` git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim ``
+
+ Source the packer.lua file from lua/chip/packer.lua
+ write ``:PackerSync`` right after to install everything
 ### Mappings:
 
 * Ctrl + p - Git file search (if you have git initialized, ignores whatever git is supposed to ignore)

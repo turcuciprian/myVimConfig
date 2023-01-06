@@ -42,6 +42,7 @@ and then
 * _pf - full file search in the root where nvim was initialised
 * _pv - enteres explore more
 * _a - Harpoon - add current file to harpoon
+* _u - UndoTree - a history side view of the file
 * Ctrl + e - Harpoon - toggle quick menu
 * Ctrl + h - Harpoon - switch to file 1
 * Ctrl + t - Harpoon - switch to file 2

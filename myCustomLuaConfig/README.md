@@ -40,12 +40,12 @@ and then
 * Ctrl + p - Git file search (if you have git initialized, ignores whatever git
   is supposed to ignore)
 * _pf - full file search in the root where nvim was initialised
-* _pv - enteres explore more
+* _pv - enteres explore mode
 * _a - Harpoon - add current file to harpoon
 * _u - UndoTree - a history side view of the file
 * Ctrl + e - Harpoon - toggle quick menu
-* Ctrl + h - Harpoon - switch to file 1
-* Ctrl + t - Harpoon - switch to file 2
+* Ctrl + t - Harpoon - switch to file 1
+* Ctrl + h - Harpoon - switch to file 2
 * Ctrl + n - Harpoon - switch to file 3
 * Ctrl + s - Harpoon - switch to file 4
 * 10GV12G - select from line 10 to line 12

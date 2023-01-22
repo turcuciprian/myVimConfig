@@ -1,18 +1,57 @@
-# My config with LSP 
-### (based on thePrimagean config as a starting point, but with my additions)
+# My config with LSP ### (based on thePrimagean config as a starting point, but
+with my additions)
 
-### Mappings:
+# Installation
 
-* Ctrl + p - Git file search (if you have git initialized, ignores whatever git is supposed to ignore)
+* Install neovim (ubuntu)
+
+`` curl -LO
+https://github.com/neovim/neovim/releases/latest/download/nvim.appimage chmod
+u+x nvim.appimage ./nvim.appimage``
+
+then
+
+``./nvim.appimage --appimage-extract ./squashfs-root/AppRun --version
+
+# Optional: exposing nvim globally. sudo mv squashfs-root / sudo ln -s
+/squashfs-root/AppRun /usr/bin/nvim nvim```
+
+* Make sure you have gcc installed:
+
+`` sudo apt update``
+
+and then 
+
+`` sudo apt install build-essential ``
+
+ * install fzf
+ 
+ `` git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+ ~/.fzf/install``
+
+* install packer 
+
+`` git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+~/.local/share/nvim/site/pack/packer/start/packer.nvim ``
+
+ Source the packer.lua file from lua/chip/packer.lua write ``:PackerSync``
+ right after to install everything ### Mappings:
+
+* Ctrl + p - Git file search (if you have git initialized, ignores whatever git
+  is supposed to ignore)
 * _pf - full file search in the root where nvim was initialised
-* _pv - enteres explore more
+* _pv - enteres explore mode
 * _a - Harpoon - add current file to harpoon
+* _u - UndoTree - a history side view of the file
 * Ctrl + e - Harpoon - toggle quick menu
-* Ctrl + h - Harpoon - switch to file 1
-* Ctrl + t - Harpoon - switch to file 2
+* Ctrl + t - Harpoon - switch to file 1
+* Ctrl + h - Harpoon - switch to file 2
 * Ctrl + n - Harpoon - switch to file 3
 * Ctrl + s - Harpoon - switch to file 4
 * 10GV12G - select from line 10 to line 12
+* gwip - reflow paragraph
+* } - jump to next paragraph (or function/block, when editing code)
+* { - jump to previous paragraph (or function/block, when editing code)
 
 ### Core vim movement keys
 * h - go left 1 character

@@ -44,5 +44,9 @@ return require('packer').startup(function(use)
 			{'rafamadriz/friendly-snippets'},
 		}
 	}
+<<<<<<< HEAD
     use('f-person/git-blame.nvim')
+=======
+    use('dense-analysis/ale')
+>>>>>>> dd34b756e597761ab54af4ec565145581ba3f2bb
 end)

@@ -65,6 +65,7 @@ and then
 * w - jump to first character in word
 * b - jump to first character in word
 * c - change word (ex cw - will remove the text until the first character in the word
+
 * ciw'Ctrl+r"' - wrap a word in single quotes
 * <selection>c""(Esc) - wraps the whole selection in " "
 

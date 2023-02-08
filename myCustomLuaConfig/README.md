@@ -53,6 +53,7 @@ and then
 * } - jump to next paragraph (or function/block, when editing code)
 * { - jump to previous paragraph (or function/block, when editing code)
 
+
 ### Core vim movement keys
 * h - go left 1 character
 * j - go down 1 character
@@ -63,7 +64,9 @@ and then
 * e - jump to last character in word
 * w - jump to first character in word
 * b - jump to first character in word
+* c - change word (ex cw - will remove the text until the first character in the word
 * ciw'Ctrl+r"' - wrap a word in single quotes
+* <selection>c""(Esc) - wraps the whole selection in " "
 
  * vi{ - select everything between {} that I am in or on now
 

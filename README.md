@@ -6,3 +6,7 @@ The neovim has two configs:
 
 1. ThePrimagean config based on a video he made
 2. A personal config based on the config from #1
+
+# Usage
+leader is \
+\ff will search for all the files (telescope interface
